@@ -9,7 +9,7 @@ In the project directory, you can run:
 ### Demo
 
 Runs the app in the development mode.\
-Open (https://suman17042000.github.io/ECommerce/)to view it in your browser.
+Open (https://suman17042000.github.io/ECommerce/) to view it in your browser.
 
 
 ### `npm test`
