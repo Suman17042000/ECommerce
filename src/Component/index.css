@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: 'Lobster Two', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Lobster Two', cursive;
+  
+}
+*{
+  box-sizing: border-box;
+}
+.Product {
+  background-color:azure;
+  width: 100%;
+  height:auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+

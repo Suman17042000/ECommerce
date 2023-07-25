@@ -1,9 +1,15 @@
-import React from "react";
-import Reactdom from "react-dom";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './Component/index.css';
+import App from './Component/App';
+import reportWebVitals from './reportWebVitals';
+import {Context} from './Component/Context';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-
-import App from './Assignment/App';
-
-Reactdom.render(<App/>,document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+   <Context>
+    <App />
+   </Context>
+  
+);
+reportWebVitals();
